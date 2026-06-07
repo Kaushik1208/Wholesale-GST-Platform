@@ -23,12 +23,7 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 git push -u origin main
 ```
 
-### Step 2 — Deploy on Streamlit Cloud
-1. Go to [share.streamlit.io](https://share.streamlit.io)
-2. Click **New app**
-3. Select your GitHub repo → branch: `main` → file: `app.py`
-4. Click **Advanced settings → Secrets** and paste:
-```toml
+
 GROQ_API_KEY = "gsk_your_actual_key_here"
 ```
 5. Click **Deploy** — your app will be live at:
