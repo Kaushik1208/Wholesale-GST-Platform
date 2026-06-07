@@ -21,17 +21,10 @@ git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 git push -u origin main
-```
+
 
 
 GROQ_API_KEY = "gsk_your_actual_key_here"
-```
-5. Click **Deploy** — your app will be live at:
-   `https://your-username-your-repo-app-XXXX.streamlit.app`
-
-That URL works **24/7**, shareable with anyone, no login needed.
-
----
 
 ## 💻 Local Development
 
